@@ -16,7 +16,10 @@
   ],
   "dependencies": {
     "foundation-sites": "~6.2.3",
-    "motion-ui": "~1.2.2"
+    "motion-ui": "~1.2.2",
+    "paper": "^0.10.2",
+    "font-awesome": "fontawesome#^4.6.3",
+    "imgLiquid": "^0.9.944"
   },
   "private": true
 }
