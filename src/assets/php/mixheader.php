@@ -10,11 +10,11 @@ $titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="mixfuckedup, bizarrock, musica, music, multimedia, livecoding,
 	algorave, algoraving, tiniebla, coagula, josecaos, livecodenet ensamble, livecodenet">
-	<meta name="description" content="Mixfuckedup es un Laboratorio personal de proyectos dedicados al codigo y multimedia, especializado en sonido. Musica, Sintesis sonora, produccion y postproduccion, desarrollo de aplicaciones, web, mapping, lo que sea, con tal de no dejar de tocar" >
+	<meta name="description" content="Mixfuckedup es un Laboratorio personal de proyectos dedicados al codigo y multimedia, especializado en sonido. Musica, Sintesis sonora, produccion y postproduccion, desarrollo de aplicaciones, web, mapping" >
 	<meta name="author" content="@joseCao5" >
 	<meta name="viewport" content="width=100%; initial-scale=1;" />
 	<title><?php echo $titulo[$secc]; ?></title>
-	<link rel="icon" type="image/ico" href="img/favicon.ico" >
+	<link rel="icon" type="image/ico" href="{{root}}assets/img/favicon.ico" >
 	<!--styles-->
 	<link rel="stylesheet" href="{{root}}assets/css/app.css">
 

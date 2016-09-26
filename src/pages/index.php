@@ -1,27 +1,30 @@
-<?php echo "hola quease peachepeando o que ahce en pages/?" ?>
-
 <?php
 //proyecto ID
 $secc=0;//mxfkdp=0;josecaos=1;lcne=2;tiniebla=3;
-// require_once "php/mixheader.php";
-// require "php/mixmenu.php";
+// include_once "{{root}}assets/php/mixheader.php";
 
-echo "pages/index";
+include_once "{{root}}assets/php/mixmenu.php";
 ?>
 <!---->
 <div class="fondo-cont" >
-  <canvas id="lienzo" onclick="rompe()"></canvas>
+  <canvas id="lienzo" class="columns h-100 hide-on-small" onclick="rompe()"></canvas>
   <img id="logoMain" class="logoMain" src="img/1.png" style="display: none" alt="">
   <div id="index" class="fondo">
     <!-- conenido ajax -->
     <div class="contenedorSeccion">
-      <?php require 'ventanas/info.php';
-      require 'ventanas/twitter.php';
-      #require 'ventanas/contacto.php';
+      <?php
+      require '{{root}}assets/ventanas/info.php';
+      require '{{root}}assets/ventanas/twitter.php';
+      #require '{{root}}assets/ventanas/contacto.php';
+
       ?>
     </div>
     <!---->
   </div>
 </div>
-<!--  footer -->
-<?php require "mixfooter.php"; ?>
+
+
+<?php
+// echo "shit container";
+include_once "{{root}}assets/php/mixfooter.php";
+?>

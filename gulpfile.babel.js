@@ -123,7 +123,7 @@ function server(done) {
     // php fix
     proxy: "http://localhost/mixfuckedup",
     // server: PATHS.dist,
-    port: 8080//PORT
+    port: PORT//8080//PORT
   });
   done();
 }
@@ -140,6 +140,7 @@ function watch() {
   gulp.watch('src/pages/**/*.{php,html}').on('all', gulp.series(pages, browser.reload));
   gulp.watch('src/{layouts,partials}/**/*.{php,html}').on('all', gulp.series(resetPages, pages, browser.reload));
   gulp.watch('src/assets/scss/**/*.scss').on('all', gulp.series(sass, browser.reload));
+  gulp.watch('src/assets/php/**/*.php').on('all', gulp.series(sass, browser.reload));
   gulp.watch('src/assets/js/**/*.js').on('all', gulp.series(javascript, browser.reload));
   gulp.watch('src/assets/img/**/*').on('all', gulp.series(images, browser.reload));
   gulp.watch('src/styleguide/**').on('all', gulp.series(styleGuide, browser.reload));

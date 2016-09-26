@@ -1,4 +1,5 @@
     <footer class="mixfooter">
+      <?php echo "footer inside"; ?>
         <div class="contHabla">
             <input id="habla" name="habla" type="text" class="hablaWidget" maxlength="50" onchange="hablaWidget()" placeholder="Speak">
         </div>
@@ -30,18 +31,3 @@
           <p class="cierraDonacion"><i class="fa fa-times" onclick="closepop()"></i> </p>
         </div>
     </footer>
-
-
-    <script>
-    var secc = <?php echo $secc ?>;
-    </script>
-    <script src="{{root}}assets/js/app.js"></script>
-    <!-- <script type="text/javascript" src="js/jquery.udraggable.js"></script>
-    <script type="text/javascript" src="js/jquery.event.ue.js"></script>
-    <script type="text/javascript" src="js/speak/speakClient.js"></script>
-    <script type="text/javascript" src="bower_components/paper/dist/paper-full.js"></script>
-    <script type="text/paperscript" src="js/papel.js" canvas="lienzo"></script>
-    <script type="text/javascript" src="js/mixspeakedup.js"></script>
-    <script type="text/javascript" src="js/mixfuckedup.js"></script> -->
-  </body>
-  </html>
