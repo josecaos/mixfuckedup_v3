@@ -1,6 +1,14 @@
 @charset 'utf-8';
 
 @import 'settings';
+
+///importa archivos anteriores antes de foundation para hacer overrides
+@import "landing";
+@import "mixfuckedup";
+@import "mixresponsiveup";
+//
+
+
 @import 'foundation';
 @import 'motion-ui';
 
@@ -49,9 +57,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+@import "bower_components/font-awesome/scss/font-awesome";
+@import "style_utils/scss/style_utils";
 
-
-///importa archivos anteriores
-@import "landing";
-@import "mixfuckedup";
-@import "mixresponsiveup";
+// importa nuevo archivo de sass
+@import "mixstyledup";

@@ -133,8 +133,8 @@ function selTitulo() {
 function selContenido() {
     var tw,ply,ind,pics;
     if(secc === 0 || secc === null || secc > 5) {//esta var se declara en el doc php raiz
-        var tw = 'html/mix_twitter.html';
-        var contenido = 'html/mixfuckedup_info.html';
+        var tw = 'assets/html/mix_twitter.html';
+        var contenido = 'assets/html/mixfuckedup_info.html';
         //
         $('#mixfuckedup').css({'background':'#0ACD00'});
         $('#mixfuckedup a').css({'color':'#313131'});
@@ -158,7 +158,7 @@ function selContenido() {
         });
     }
     if(secc === 1) {//josecaos
-        tw = 'html/jc_twitter.html';
+        tw = 'assets/html/jc_twitter.html';
         //
         $('#joseCaos').css({'background':'#0ACD00'});
         $('#joseCaos a').css({'color':'#313131'});
@@ -173,7 +173,7 @@ function selContenido() {
         });
     }
     if(secc === 2) {//LCNE
-        var iframe = 'html/lcne_info.html';
+        var iframe = 'assets/html/lcne_info.html';
         //
         $('#liveCodeNetEnsamble').css({'background':'#0ACD00'});
         $('#liveCodeNetEnsamble a').css({'color':'#313131'});
@@ -189,7 +189,7 @@ function selContenido() {
         });
     }
     if(secc === 3) {//Tiniebla
-        tw = 'html/tiniebla_twitter.html';
+        tw = 'assets/html/tiniebla_twitter.html';
         //
         $('#tiniebla').css({'background':'#0ACD00'});
         $('#tiniebla a').css({'color':'#313131'});
@@ -258,6 +258,7 @@ function selContenido() {
       });
     }
   //ready
+  var u;
 $(function(){
   //randomiza arrays
   Array.prototype.shuffle = function() {
@@ -265,6 +266,23 @@ $(function(){
     return Math.random() - 0.25;
     });
   };
+  //debug
+  // for (var i = 0; i < 16; i++) {
+  //   console.log("inicio" + i*32467);
+  // }
+    // JS Utils
+    u = new Utils();
+
+    u.vcenter();
+    u.shareH();
+
+    //
+
+    // imagenes
+    $('.imgLiquid.imgLiquidFill').imgLiquid();
+
+    $('.imgLiquid.imgLiquidNoFill').imgLiquid({fill:false});
+
   //titulos y contenido
   selTitulo();
   selContenido();

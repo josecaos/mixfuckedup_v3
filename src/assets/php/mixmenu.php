@@ -1,5 +1,5 @@
     <nav>
-        <div class="mixmenu">
+        <div class="columns mixmenu">
             <div id="audio"></div>
             <ul class="menuProyectos" >
 

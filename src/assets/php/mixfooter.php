@@ -23,7 +23,7 @@
           </p>
         </div>
         <div id="popupDonaciones" style="display:none;" >
-          <img src="img/qr-donaciones.png">
+          <img src="assets/img/qr-donaciones.png">
           <input type="text" name="walletBTC" value="17DiERCLX65hm8M9JJ13LBCABbJyhPjLPe" readonly="true">
           <p>
             <small>Since all these are a DIY projects, you can support them by donating some Bitcoins or Satoshis. Thanks in advance.</small>
