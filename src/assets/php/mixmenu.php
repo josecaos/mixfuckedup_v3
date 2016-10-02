@@ -1,3 +1,10 @@
+<?php
+
+$titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
+
+ ?>
+
+
     <nav>
         <div class="columns mixmenu">
             <div id="audio"></div>

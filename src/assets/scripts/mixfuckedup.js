@@ -274,9 +274,6 @@ $(function(){
     u = new Utils();
 
     u.vcenter();
-    u.shareH();
-
-    //
 
     // imagenes
     $('.imgLiquid.imgLiquidFill').imgLiquid();

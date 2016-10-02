@@ -75,11 +75,6 @@ ul {
 	padding: 0;
 }
 
-.fondo-cont {
-	height: 100%;
-	overflow: hidden;
-	width: 100%;
-	}
 .fondo {
     height: 100%;
     position:fixed;
@@ -520,6 +515,10 @@ p { line-height: 1.333em;
 	-webkit-filter: brightness(100%);
  	-webkit-filter: contrast(150%);
 }
+// #fondo-mix {
+// 	-webkit-filter: brightness(100%);
+//  	-webkit-filter: contrast(150%);
+// }
 .logoMain {
     margin: 10% 35%;
     height: auto;

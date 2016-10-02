@@ -2,7 +2,7 @@
 // http://www.flickr.com/photos/puckey/3179779686/in/photostream/
 
 // Create a raster item:
-var raster = new Raster('logoMain');
+var raster = new Raster("logoMain");
 var loaded = false;
 
 raster.on('load', function() {

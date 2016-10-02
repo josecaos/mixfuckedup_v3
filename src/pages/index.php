@@ -1,15 +1,22 @@
 <?php
 //proyecto ID
+// $titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
 $secc=0;//mxfkdp=0;josecaos=1;lcne=2;tiniebla=3;
 // include_once "{{root}}assets/php/mixheader.php";
 
 include_once "{{root}}assets/php/mixmenu.php";
 ?>
 <!---->
-<div class="fondo-cont" >
-  <canvas id="lienzo" class="columns h-100 hide-on-small" onclick="rompe()"></canvas>
-  <img id="logoMain" class="logoMain" src="{{root}}assets/img/1.png" style="display: none" alt="">
-  <div id="index" class="fondo">
+<section class="columns h-100 p-0 ovH" >
+
+  <canvas id="fondo-mix" class="columns h_100 p-0 z1" onclick="rompe()"></canvas>
+
+  <!-- <img id="logoMain" class="logoMain" src="{{root}}assets/img/1.png" style="display: none" alt=""> -->
+  <div id="cont-fondo" class="columns p-0 h-100-v abs imgLiquid imgLiquidFill" >
+    <img id="logoMain" class="columns p-0 h-100" src="{{root}}assets/img/1.png" alt="">
+  </div>
+
+  <div id="index" class="columns h_100 fixed top left">
     <!-- conenido ajax -->
     <div class="contenedorSeccion">
       <?php
@@ -21,7 +28,7 @@ include_once "{{root}}assets/php/mixmenu.php";
     </div>
     <!---->
   </div>
-</div>
+</section>
 
 
 <?php
