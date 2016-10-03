@@ -5,30 +5,42 @@ $titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
  ?>
 
 
-    <nav>
-        <div class="columns mixmenu">
-            <div id="audio"></div>
-            <ul class="menuProyectos" >
+    <nav class="columns p-0 fixed top left z1k1 mixmenu shadow-light">
+        <!-- <div class="columns p-0 fixed top left z1k1 mixmenu"> -->
+            <div id="audio" class="fixed"></div>
+            <ul class="columns p-0 menuProyectos text-left" >
 
-                    <li id="mixfuckedup">
-                        <a class="linkProyectos" href="index.php" > Mixfuckedup</a>
+                    <li id="mixfuckedup" class="columns small-12 medium-2 text-left p-0 h-100">
+                        <a class="columns h-100 linkProyectos " href="index.php" >
+                          <div class="small-12 vcenter"> Mixfuckedup</div>
+                        </a>
                     </li>
-                    <li id="joseCaos">
-                        <a class="linkProyectos" href="josecaos.php" >JoseCaos</a>
+                    <li id="joseCaos" class="columns small-12 medium-2 text-left p-0 h-100">
+                        <a class="columns h-100 linkProyectos " href="josecaos.php" >
+                          <div class="small-12 vcenter"> JoseCaos</div>
+                        </a>
                     </li>
-                    <li id="liveCodeNetEnsamble">
-                        <a class="linkProyectos" href="livecodenet_ensamble.php" >LCNE</a>
+                    <li id="liveCodeNetEnsamble" class="columns small-12 medium-2 text-left p-0 h-100">
+                        <a class="columns h-100 linkProyectos " href="livecodenet_ensamble.php" >
+                          <div class="small-12 vcenter"> LCNE</div>
+                        </a>
                     </li>
-                    <li id="tiniebla" >
-                        <a class="linkProyectos" href="tiniebla.php" >Tiniebla</a>
+                    <li id="tiniebla" class="columns small-12 medium-2 text-left p-0 h-100" >
+                        <a class="columns h-100 linkProyectos " href="tiniebla.php" >
+                          <div class="small-12 vcenter"> Tiniebla</div>
+                        </a>
                     </li>
 
-                    <li id="webLab"> <!-- weblab() -->
-                      <a class="linkProyectos" href="http://github.com/kernspaltung" target="_blank">WebLab</a> <!-- http://weblab.mixfuckedup.net-->
+                    <li id="webLab" class="columns small-12 medium-2 text-left p-0 h-100"> <!-- weblab() -->
+                      <a class="columns h-100 linkProyectos " href="http://github.com/kernspaltung" target="_blank">
+                        <div class="small-12 vcenter"> WebLab</div>
+                      </a> <!-- http://weblab.mixfuckedup.net-->
                     </li>
 
-                    <li id="audioLab" onclick="alert('proximamente')"> <!-- audiolab() -->
-                        <a class="linkProyectos" href="#">AudioLab</a> <!-- http://audiolab.mixfuckedup.net-->
+                    <li id="audioLab" class="columns small-12 medium-2 text-left p-0 h-100" onclick="alert('proximamente')"> <!-- audiolab() -->
+                        <a class="columns h-100 linkProyectos " href="#">
+                          <div class="small-12 vcenter"> AudioLab</div>
+                        </a> <!-- http://audiolab.mixfuckedup.net-->
                     </li>
 
 
@@ -36,5 +48,5 @@ $titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
           <div id="tituloheader" class="tituloheader" onclick="tituloHeader()">
             <h1 id="tituloprincipal" class="mixlogoheader"></h1>
         </div>
-        </div>
+        <!-- </div> -->
     </nav>

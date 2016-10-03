@@ -16,9 +16,9 @@ include_once "{{root}}assets/php/mixmenu.php";
     <img id="logoMain" class="columns p-0 h-100" src="{{root}}assets/img/1.png" alt="">
   </div>
 
-  <div id="index" class="columns h_100 fixed top left">
+  <div id="index" class="columns p-0 h_100 fixed top left">
     <!-- conenido ajax -->
-    <div class="contenedorSeccion">
+    <div class="columns h-95 p-0 contenedorSeccion">
       <?php
       require '{{root}}assets/ventanas/info.php';
       require '{{root}}assets/ventanas/twitter.php';
