@@ -1,9 +1,9 @@
 <footer class="columns fixed bottom left mixfooter shadow-light">
 
-  <div class="columns small-12 medium-3 p1 h-100 h-sm-5vh contHabla">
-    <input id="habla" name="habla" type="text" class="columns p-0 p-l-1 h-100 black hablaWidget font-sm-M font-md-M font-lg-M" onchange="hablaWidget()" placeholder="Say something">
+  <div class="columns small-12 medium-3 p1 h-100 h-sm-5vh">
+    <input id="habla" name="habla" type="text" class="columns h-100 p-0 p-l-1 black hablaWidget font-sm-M font-md-M font-lg-M" onchange="hablaWidget()" placeholder="Say something">
   </div>
-  <div class="columns small-12 h-100 h-sm-5vh medium-4 p1 linkRedes">
+  <div class="columns small-12 h-100 h-sm-5vh medium-4 p-0 linkRedes">
     <ul class="columns p-0 h-100">
       <li class="columns small-2 text-center h-100"><a href="http://www.github.com/josecaos" target="_blank" class="columns h-100 font-sm-M font-md-M font-lg-M" ><i class="vcenter fa fa-github-alt"></a></i></li>
       <!-- <li class="columns small-2 text-center h-100"><a href="http://www.bitbucket.com/josecaos" target="_blank" class="columns h-100 font-sm-M font-md-M font-lg-M" ><i class="vcenter fa fa-bitbucket"></a></i></li> -->
@@ -14,10 +14,10 @@
       <li class="columns small-2 text-center h-100"><a href="http://www.vimeo.com/mixfuckedup" target="_blank" class="columns h-100 font-sm-M font-md-M font-lg-M" ><i class="vcenter fa fa-vimeo"></a></i></li>
     </ul>
   </div>
-  <div class="columns small-9 medium-3 h-100 h-sm-5vh p1 copyright text-center small-left">
+  <div class="columns small-9 medium-3 large-4 h-100 h-sm-5vh copyright text-center small-left">
     <h5 class="small-12 vcenter font-sm-M font-md-M font-lg-M"> <i class="fa fa-creative-commons"></i> Mixfuckedup 2016 </h5>
   </div>
-  <div class="columns small-3 medium-2 p0 h-100 h-sm-5vh donaciones text-center" onclick="popup()">
+  <div class="columns small-3 medium-2 large-1 p0 h-100 h-sm-6vh donaciones text-center" onclick="popup()">
 
       <div class="columns p-0 vcenter h-a white font-sm-S font-md-S font-lg-M">&nbsp;Donate <i class="fa fa-bitcoin"></i></div>
 

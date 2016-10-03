@@ -57,22 +57,22 @@ function tituloHeader() {
       //hablaProyecto(proyecto[3]);
     },5000);
   }
-  if(secc === 4){
-    cont.innerHTML = audiolab.join("");
-    hablaProyecto(audiolab.join(""));
-    setTimeout(function() {
-      cont.innerHTML = proyecto[4];
-      //hablaProyecto(proyecto[0]);
-    },10000);
-  }
-  if(secc === 5){
-    cont.innerHTML = weblab.join("");
-    hablaProyecto(tinieblatitulo.join(""));
-    setTimeout(function() {
-      cont.innerHTML = proyecto[5];
-      //hablaProyecto(proyecto[0]);
-    },10000);
-  }
+  // if(secc === 4){
+  //   cont.innerHTML = audiolab.join("");
+  //   hablaProyecto(audiolab.join(""));
+  //   setTimeout(function() {
+  //     cont.innerHTML = proyecto[4];
+  //     //hablaProyecto(proyecto[0]);
+  //   },10000);
+  // }
+  // if(secc === 5){
+  //   cont.innerHTML = weblab.join("");
+  //   hablaProyecto(tinieblatitulo.join(""));
+  //   setTimeout(function() {
+  //     cont.innerHTML = proyecto[5];
+  //     //hablaProyecto(proyecto[0]);
+  //   },10000);
+  // }
 }
 //cambio de titulo
 function mixfuckedup () {
@@ -95,19 +95,19 @@ function tiniebla () {
   //document.getElementById('tituloheader').style.right = 'auto';
   //hablaProyecto(proyecto[4]);
 }
-function audiolab () {
-  document.getElementById('tituloprincipal').innerHTML = proyecto[4];
-  //document.getElementById('tituloheader').style.right = 'auto';
-  //hablaProyecto(proyecto[3]);
-}
-function webLab () {
-  document.getElementById('tituloprincipal').innerHTML = proyecto[5];
-  //document.getElementById('tituloheader').style.right = 'auto';
-  //hablaProyecto(proyecto[5] + "web sound research");
-}
+// function audiolab () {
+//   document.getElementById('tituloprincipal').innerHTML = proyecto[4];
+//   //document.getElementById('tituloheader').style.right = 'auto';
+//   //hablaProyecto(proyecto[3]);
+// }
+// function webLab () {
+//   document.getElementById('tituloprincipal').innerHTML = proyecto[5];
+//   //document.getElementById('tituloheader').style.right = 'auto';
+//   //hablaProyecto(proyecto[5] + "web sound research");
+// }
 //selecciona titulo correcto
 function selTitulo() {
-  if(secc === 0 || secc === null || secc > 5) {
+  if(secc === 0 || secc === null || secc > 3) {
     mixfuckedup();
   }
   if(secc === 1) {
@@ -119,12 +119,12 @@ function selTitulo() {
   if(secc === 3) {
     tiniebla();
   }
-  if(secc === 4) {
-    audioLab();
-  }
-  if(secc === 5) {
-    webLab();
-  }
+  // if(secc === 4) {
+  //   audioLab();
+  // }
+  // if(secc === 5) {
+  //   webLab();
+  // }
 }
 //player options
 ////// falta
@@ -203,16 +203,16 @@ function selContenido() {
       }
     });
   }
-  if(secc === 4) {
-    $('#audioLab').css({'background':'#0ACD00'});
-    $('#audioLab a').css({'color':'#313131'});
-    audioLab();
-  }
-  if(secc === 5) {
-    $('#webLab').css({'background':'#0ACD00'});
-    $('#webLab a').css({'color':'#313131'});
-    webLab();
-  }
+  // if(secc === 4) {
+  //   $('#audioLab').css({'background':'#0ACD00'});
+  //   $('#audioLab a').css({'color':'#313131'});
+  //   audioLab();
+  // }
+  // if(secc === 5) {
+  //   $('#webLab').css({'background':'#0ACD00'});
+  //   $('#webLab a').css({'color':'#313131'});
+  //   webLab();
+  // }
 }
 //contrae las ventanas
 function cierraContenedor (ventana) {
@@ -249,12 +249,12 @@ function abreContenedor (ventana) {
 }
 //donaciones
 function popup () {
-  $('#popupDonaciones').toggle('slow',function() {
-    $('#popupDonaciones').css("display","block");
+  $('#popupDonaciones').toggle('fast',function() {
+    // $('#popupDonaciones').css("display","block");
   });
 }
 function closepop () {
-  $('#popupDonaciones').fadeOut('slow',function() {
+  $('#popupDonaciones').fadeOut('fast',function() {
   });
 }
 //ready
@@ -284,7 +284,7 @@ $(function(){
   selTitulo();
   selContenido();
   //drag titulo principal
-  $('.tituloheader').udraggable({
+  $('.tituloheader, .tituloheader-movil').udraggable({
     containment: '.contenedorSeccion'
   });
   $('.contenido').udraggable({ //contenido principal
@@ -327,7 +327,7 @@ $(function(){
 
     setTimeout(function() {
 
-      u.vcenter;
+      u.vcenter();
 
     },500);
 

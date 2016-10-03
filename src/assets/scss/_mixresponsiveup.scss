@@ -37,6 +37,20 @@
   .copyright h5 {
     text-align: left;
   }
+
+  .mixlogoheader {
+  	line-height: 0px;
+  	cursor: link;
+  	height: auto;
+  	width: auto;
+  	font-family: 'heavy_dataregular', Helvetica;
+  	// margin-bottom: 0;
+  	// margin-left: 10px;
+  	// margin-right: 10px;
+  }
+  .mixlogoheader:focus {
+  	cursor: link;
+  }
 }
 //xsmall
 @media (max-width:320px) {
