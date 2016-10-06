@@ -57,22 +57,6 @@ function tituloHeader() {
       //hablaProyecto(proyecto[3]);
     },5000);
   }
-  // if(secc === 4){
-  //   cont.innerHTML = audiolab.join("");
-  //   hablaProyecto(audiolab.join(""));
-  //   setTimeout(function() {
-  //     cont.innerHTML = proyecto[4];
-  //     //hablaProyecto(proyecto[0]);
-  //   },10000);
-  // }
-  // if(secc === 5){
-  //   cont.innerHTML = weblab.join("");
-  //   hablaProyecto(tinieblatitulo.join(""));
-  //   setTimeout(function() {
-  //     cont.innerHTML = proyecto[5];
-  //     //hablaProyecto(proyecto[0]);
-  //   },10000);
-  // }
 }
 //cambio de titulo
 function mixfuckedup () {
@@ -306,7 +290,7 @@ $(function(){
     $('.contenidoLiveVid').animate({
       top: alturalivevid
     },550);
-    $(itemspage.join(',')).slideDown('slow',function() {
+    $(itemspage.join(',')).slideDown('fast',function() {
       //console.log([alturaindex,alturatwitter,altura.top] + 'px');
     });
   },2000);
@@ -316,6 +300,7 @@ $(function(){
   $('#habla').on('change',function() {
     hablaWidget($(this).val());
     document.getElementById('tituloheader').style.background = 'rgba(0,255,0,0.5)';
+    document.getElementById('tituloheader-movil').style.background = 'rgba(0,255,0,0.5)';
   });
   //
   //formulario de contacto

@@ -49,12 +49,12 @@ $titulo=["Mixfuckedup","josecaos","LiveCodeNetEnsamble", "Tiniebla"];
   </nav>
   <!-- titulo medium/large suelto -->
   <div id="tituloheader" class="text-center z1k1 abs white tituloheader hide-for-small-only" onclick="tituloHeader()">
-    <h1 id="tituloprincipal" class="font-sm-XL font-md-XXL font-lg-XXXL verder-lima mixlogoheader"></h1>
+    <h1 id="tituloprincipal" class="small-12 m-b-0 font-sm-XL font-md-XXL font-lg-XXXL verder-lima mixlogoheader"></h1>
   </div>
 
 <!-- titulo small -->
   <div id="tituloheader-movil" class="columns small-9 text-left z1k1 h-100 tituloheader-movil show-for-small hide-for-medium-only hide-for-large-only" onclick="tituloHeader()">
-    <h1 id="tituloprincipal-movil" class="font-sm-XL vcenter verder-lima mixlogoheader-movil"></h1>
+    <h1 id="tituloprincipal" class="small-12 m-b-0 font-sm-XL vcenter verder-lima mixlogoheader-movil"></h1>
   </div>
 
   <!-- movil -->

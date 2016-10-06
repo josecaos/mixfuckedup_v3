@@ -1,7 +1,7 @@
 <footer class="columns fixed bottom left mixfooter shadow-light">
 
   <div class="columns small-12 medium-3 p1 h-100 h-sm-5vh">
-    <input id="habla" name="habla" type="text" class="columns h-100 p-0 p-l-1 black hablaWidget font-sm-M font-md-M font-lg-M" onchange="hablaWidget()" placeholder="Say something">
+    <input id="habla" name="habla" type="text" class="columns h-100 p-0 p-l-1 p-b-1 black hablaWidget font-sm-M font-md-M font-lg-M" onchange="hablaWidget()" placeholder="Say something">
   </div>
   <div class="columns small-12 h-100 h-sm-5vh medium-4 p-0 linkRedes">
     <ul class="columns p-0 h-100">
