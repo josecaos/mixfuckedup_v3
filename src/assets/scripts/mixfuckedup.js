@@ -284,12 +284,12 @@ $(function(){
     var alturalivevid = altura.top - 130;
     $(itemspage[0]).css('height',alturaindex + 'px');
     $(itemspage[1]).css('height',alturatwitter  + 'px');
-    $('.contenidoRadio').animate({
-      top: altura.top -170
-    },550);
-    $('.contenidoLiveVid').animate({
-      top: alturalivevid
-    },550);
+    // $('.contenidoRadio').animate({
+    //   top: altura.top -170
+    // },550);
+    // $('.contenidoLiveVid').animate({
+    //   top: alturalivevid
+    // },550);
     $(itemspage.join(',')).slideDown('fast',function() {
       //console.log([alturaindex,alturatwitter,altura.top] + 'px');
     });
@@ -299,8 +299,16 @@ $(function(){
   //habla footer
   $('#habla').on('change',function() {
     hablaWidget($(this).val());
-    document.getElementById('tituloheader').style.background = 'rgba(0,255,0,0.5)';
-    document.getElementById('tituloheader-movil').style.background = 'rgba(0,255,0,0.5)';
+
+    if ($(window).width() < 640 ) {
+
+      document.getElementById('tituloheader').style.background = 'rgba(0,255,0,0.5)';
+
+    } else {
+
+      document.getElementById('tituloheader-movil').style.background = 'rgba(0,255,0,0.5)';
+
+    }
   });
   //
   //formulario de contacto

@@ -19,7 +19,7 @@
   </div>
   <div class="columns small-3 medium-2 large-1 p0 h-100 h-sm-6vh donaciones text-center" onclick="popup()">
 
-      <div class="columns p-0 vcenter h-a white font-sm-S font-md-S font-lg-M">&nbsp;Donate <i class="fa fa-bitcoin"></i></div>
+      <div class="columns p-0 vcenter h-a white font-sm-S font-md-S font-lg-M verde-lima-hover">&nbsp;Donate <i class="fa fa-bitcoin"></i></div>
 
   </div>
   <div id="popupDonaciones" class="columns small-12 medium-6 large-5 h-50 h-md-60 h-lg-60 shadow-light" style="display:none;" >
