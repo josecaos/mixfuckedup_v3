@@ -1,9 +1,9 @@
-/* 
+/*
  * Archivo text to speech para mixfuckedup.net
  * Interactua con mixfuckedup.js
- * Usa speak.js mas info aqui -> https://github.com/mattytemple/speak-js 
+ * Usa speak.js mas info aqui -> https://github.com/mattytemple/speak-js
 */
-var rapidez =  new Array("50","75","100","125","150","175","200");
+var rapidez =  new Array("100","125","150","175","200");
 var tono =  new Array("1","10","30","60","100","150","200");
 //velocidad voz
 function randomVel() {
@@ -25,4 +25,4 @@ function hablaProyecto(proyecto) {
     document.getElementById('tituloprincipal').innerHTML = texto;
     document.getElementById('tituloheader').style.textalign = 'center';
     speak(texto, {pitch:randomTone(),speed:randomVel()});
-  }  
+  }

@@ -79,16 +79,6 @@ function tiniebla () {
   //document.getElementById('tituloheader').style.right = 'auto';
   //hablaProyecto(proyecto[4]);
 }
-// function audiolab () {
-//   document.getElementById('tituloprincipal').innerHTML = proyecto[4];
-//   //document.getElementById('tituloheader').style.right = 'auto';
-//   //hablaProyecto(proyecto[3]);
-// }
-// function webLab () {
-//   document.getElementById('tituloprincipal').innerHTML = proyecto[5];
-//   //document.getElementById('tituloheader').style.right = 'auto';
-//   //hablaProyecto(proyecto[5] + "web sound research");
-// }
 //selecciona titulo correcto
 function selTitulo() {
   if(secc === 0 || secc === null || secc > 3) {
@@ -103,12 +93,6 @@ function selTitulo() {
   if(secc === 3) {
     tiniebla();
   }
-  // if(secc === 4) {
-  //   audioLab();
-  // }
-  // if(secc === 5) {
-  //   webLab();
-  // }
 }
 //player options
 ////// falta
@@ -284,14 +268,7 @@ $(function(){
     var alturalivevid = altura.top - 130;
     $(itemspage[0]).css('height',alturaindex + 'px');
     $(itemspage[1]).css('height',alturatwitter  + 'px');
-    // $('.contenidoRadio').animate({
-    //   top: altura.top -170
-    // },550);
-    // $('.contenidoLiveVid').animate({
-    //   top: alturalivevid
-    // },550);
     $(itemspage.join(',')).slideDown('fast',function() {
-      //console.log([alturaindex,alturatwitter,altura.top] + 'px');
     });
   },2000);
   $('.hasTooltip').removeClass('hasTooltip');

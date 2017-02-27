@@ -1,5 +1,5 @@
 <footer class="columns fixed bottom left mixfooter shadow-light">
-
+ 
   <div class="columns small-12 medium-3 p1 h-100 h-sm-5vh">
     <input id="habla" name="habla" type="text" class="columns h-100 p-0 p-l-1 p-b-1 black hablaWidget font-sm-M font-md-M font-lg-M" onchange="hablaWidget()" placeholder="Say something">
   </div>
@@ -32,7 +32,7 @@
 
     <input class="columns h-15 p-0 text-center font-sm-M font-md-M font-lg-L wallet-number" type="text" name="walletBTC" value="17DiERCLX65hm8M9JJ13LBCABbJyhPjLPe" readonly="true">
     <p class="columns vcenter black bold font-sm-M font-md-S font-lg-M">
-      <small>Since all these are DIY projects, you can support them by donating some Bitcoins or Satoshis, thanks.</small>
+      <small>Since all these are DIY projects, you can support them by donating some Bitcoin or Satoshis, thanks.</small>
     </p>
     <p class="cierraDonacion"><i class="fa fa-times" onclick="closepop()"></i> </p>
   </div>
